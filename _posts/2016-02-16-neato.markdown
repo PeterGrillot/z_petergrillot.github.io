@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "I made a Jekyll post"
+date:   2016-02-16 17:36:24 -0500
+categories: nonsense
+---
+I am going to type a javascript snippent
+
+{% highlight javascript %}
+function i_like_turtles(type){
+	console.log("The" + type + "is my fav!");
+}
+i_like_turtles('red eared slider')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Things are nice.
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
