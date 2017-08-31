@@ -2,25 +2,20 @@
 layout: default
 ---
 <div class="home">
-	<h1 class="page-heading">Peter Grillot</h1>
-	<h2>Front End Developer</h2>
-	<ul>
-		<li>
-			Washington, DC
-		</li>
-		<li><a href="tel:3015254078">301.525.4078</a></li>
-		<li><a href="mailto:petergrillot@gmail.com">petergrillot[at]gmail.com</a></li>
-	</ul>
-	<h3>Skills</h3>
+	<p>I enjoy making things for the web using skills I learned in the past <span id="exp"></span> years.</p>
+	<script type="text/javascript">
+		var inTheBegining = new Date().getFullYear();
+		document.getElementById('exp').innerHTML = inTheBegining - 2008;
+	</script>
 	<p><strong>Front-end Languages:</strong></p>
 	<ul>
 		<li>HTML5</li>
-		<li>CSS3</li>
+		<li>CSS3 / Sass / Animation / Canvas</li>
 		<li>Javascript (ES6) / Babel / Webpack</li>
 	</ul>
 	<p><strong>Back-end Languages:</strong></p>
 	<ul>
-		<li>Node.js (Server Side Javascript)</li>
+		<li>Node (Server Side Javascript)</li>
 		<li>Python</li>
 		<li>PHP</li>
 		<li>mySQL</li>
